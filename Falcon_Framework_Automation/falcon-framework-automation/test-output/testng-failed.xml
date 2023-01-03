@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Falcon-Sample-MAC_catalina_chrome_89]">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="89"/>
+  <test thread-count="5" name="SampleTest(failed)">
+    <classes>
+      <class name="com.qa.automation.falcon_framework_automation.testscript.SampleTestScript">
+        <methods>
+          <include name="preSetup"/>
+          <include name="beforeTest"/>
+          <include name="teardown"/>
+          <include name="sampleTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.qa.automation.falcon_framework_automation.testscript.SampleTestScript -->
+    </classes>
+  </test> <!-- SampleTest(failed) -->
+</suite> <!-- Failed suite [Falcon-Sample-MAC_catalina_chrome_89] -->

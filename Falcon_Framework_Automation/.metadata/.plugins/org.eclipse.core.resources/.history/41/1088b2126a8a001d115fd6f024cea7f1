@@ -1,0 +1,11 @@
+yourname_input=//input[@placeholder='Your Name']
+emailid_input=//input[@placeholder='Email ID']
+phonenumber_input=//input[@placeholder='Phone Number']
+companyname_input=//input[@placeholder='Company Name']
+contactUs_link = //ul[@class='slimmenu']//a[contains(@href,'contact-us')]
+
+#wrong locators
+#yourname_input=//input[@title='#### Your Name ####']
+#emailid_input=//input[@class='#% Email ID']
+#phonenumber_input=//input[@label='@@ Phone Number']
+#companyname_input=//input[@title=' Company Name ']

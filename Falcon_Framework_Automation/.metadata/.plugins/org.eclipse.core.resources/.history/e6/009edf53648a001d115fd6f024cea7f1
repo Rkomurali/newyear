@@ -1,0 +1,12 @@
+package com.qa.automation.falcon.testscript;
+
+public class Test {
+	
+	
+	@T
+	public void test ()
+	{
+		
+	}
+
+}

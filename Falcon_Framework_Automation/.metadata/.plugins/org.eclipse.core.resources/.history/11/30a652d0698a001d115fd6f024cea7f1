@@ -1,0 +1,14 @@
+package com.qa.automation.falcon.testscript;
+
+import com.atmecs.falcon.automation.util.enums.BrowserType;
+import com.qa.automation.falcon.testsuite.SampleTestSuiteBase;
+
+public class SampleTest extends SampleTestSuiteBase {
+	
+	public void sampleTest()
+	{ 
+		System.out.println("Welcome");
+		
+	}
+
+}

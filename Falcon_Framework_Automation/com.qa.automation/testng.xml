@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Master Suite File containing all relevant Suite Files -->
+<suite name="CompanySetup">
+
+	<suite-files>
+		<suite-file path="./src/main/resources/suitefile/googlesearch.xml" />
+		<suite-file path="./src/main/resources/suitefile/contactus.xml" />
+	</suite-files>
+
+</suite>

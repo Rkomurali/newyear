@@ -1,0 +1,9 @@
+2021-03-30 15:31:32,950  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] VerificationManager:292 - PASS : step 1 
+2021-03-30 15:31:32,952  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] VerificationManager:292 - PASS : step 2 
+2021-03-30 15:31:32,952  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] VerificationManager:292 - PASS : step 3 
+2021-03-30 15:31:34,799  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] JiraCloudManager:51 - projectKey: TP
+2021-03-30 15:31:34,800  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] JiraCloudManager:51 - testCaseKey: TP-T1
+2021-03-30 15:31:34,800  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] JiraCloudManager:51 - testCycleKey: TP-R12
+2021-03-30 15:31:34,800  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] JiraCloudManager:51 - executionStatus: PASS
+2021-03-30 15:31:38,089  INFO [com.atmecs.JiraWeb.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2021-03-30 15:31:38,103 ERROR [com.atmecs.JiraWeb.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Suite File -->
+
+<suite name="Sample">
+
+	<test name="SampleTest">
+		<classes>
+			<class name="falcon_framework_automation.com.qa.automation.testscript.AtmecsContactUsTest" />
+		</classes>
+	</test>
+
+</suite>
+

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[responseRoot: {"next":null,"startAt":0,"maxResults":45,"total":45,"isLast":true,"values":[{"id":1259459,"parentId":null,"name":"MobileApp","index":2,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259460,"parentId":1259459,"name":"Run 1","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259469,"parentId":1259459,"name":"Run 2","index":1,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259480,"parentId":1259459,"name":"Run 3","index":2,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259579,"parentId":1259459,"name":"Run 4","index":3,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259590,"parentId":1259459,"name":"Run 5","index":4,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259605,"parentId":1259459,"name":"Run 6","index":5,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259654,"parentId":1259459,"name":"Run 7","index":6,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259655,"parentId":1259654,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259656,"parentId":1259655,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259659,"parentId":1259459,"name":"Run 8","index":7,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259660,"parentId":1259659,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259661,"parentId":1259660,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259674,"parentId":1259459,"name":"Run 9","index":8,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259675,"parentId":1259674,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259676,"parentId":1259675,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259710,"parentId":1259459,"name":"Run 10","index":9,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259711,"parentId":1259710,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259712,"parentId":1259711,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259799,"parentId":1259459,"name":"Run 11","index":10,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259804,"parentId":1259459,"name":"Run 12","index":11,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259805,"parentId":1259804,"name":"android_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259806,"parentId":1259805,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261796,"parentId":null,"name":"WebApp","index":3,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261797,"parentId":1261796,"name":"Run 1","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261798,"parentId":1261797,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261799,"parentId":1261798,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261856,"parentId":1261796,"name":"Run 2","index":1,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261857,"parentId":1261856,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261858,"parentId":1261857,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261869,"parentId":1261796,"name":"Run 3","index":2,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261870,"parentId":1261869,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261871,"parentId":1261870,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261873,"parentId":1261796,"name":"Run 4","index":3,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261874,"parentId":1261873,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261875,"parentId":1261874,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261897,"parentId":1261796,"name":"Run 5","index":4,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261898,"parentId":1261897,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261899,"parentId":1261898,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261965,"parentId":1259459,"name":"Run 13","index":12,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261966,"parentId":1261965,"name":"android_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261967,"parentId":1261966,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1262027,"parentId":1259459,"name":"Run 14","index":13,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1262028,"parentId":1262027,"name":"android_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1262029,"parentId":1262028,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}}]}]]>
+    </line>
+    <line>
+      <![CDATA[response: {"next":null,"startAt":0,"maxResults":45,"total":45,"isLast":true,"values":[{"id":1259459,"parentId":null,"name":"MobileApp","index":2,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259460,"parentId":1259459,"name":"Run 1","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259469,"parentId":1259459,"name":"Run 2","index":1,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259480,"parentId":1259459,"name":"Run 3","index":2,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259579,"parentId":1259459,"name":"Run 4","index":3,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259590,"parentId":1259459,"name":"Run 5","index":4,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259605,"parentId":1259459,"name":"Run 6","index":5,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259654,"parentId":1259459,"name":"Run 7","index":6,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259655,"parentId":1259654,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259656,"parentId":1259655,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259659,"parentId":1259459,"name":"Run 8","index":7,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259660,"parentId":1259659,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259661,"parentId":1259660,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259674,"parentId":1259459,"name":"Run 9","index":8,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259675,"parentId":1259674,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259676,"parentId":1259675,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259710,"parentId":1259459,"name":"Run 10","index":9,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259711,"parentId":1259710,"name":"ios_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259712,"parentId":1259711,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259799,"parentId":1259459,"name":"Run 11","index":10,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259804,"parentId":1259459,"name":"Run 12","index":11,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259805,"parentId":1259804,"name":"android_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1259806,"parentId":1259805,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261796,"parentId":null,"name":"WebApp","index":3,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261797,"parentId":1261796,"name":"Run 1","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261798,"parentId":1261797,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261799,"parentId":1261798,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261856,"parentId":1261796,"name":"Run 2","index":1,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261857,"parentId":1261856,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261858,"parentId":1261857,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261869,"parentId":1261796,"name":"Run 3","index":2,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261870,"parentId":1261869,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261871,"parentId":1261870,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261873,"parentId":1261796,"name":"Run 4","index":3,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261874,"parentId":1261873,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261875,"parentId":1261874,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261897,"parentId":1261796,"name":"Run 5","index":4,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261898,"parentId":1261897,"name":"Mac_Chrome","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261899,"parentId":1261898,"name":"Googlesearch","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261965,"parentId":1259459,"name":"Run 13","index":12,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261966,"parentId":1261965,"name":"android_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1261967,"parentId":1261966,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1262027,"parentId":1259459,"name":"Run 14","index":13,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1262028,"parentId":1262027,"name":"android_ffff071c7d","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}},{"id":1262029,"parentId":1262028,"name":"Sample","index":0,"folderType":"TEST_CYCLE","project":{"id":65653,"self":"https://api.tm4j.smartbear.com/rest-api/v2/projects/65653"}}]}]]>
+    </line>
+    <line>
+      <![CDATA[nextStringRunCount: null]]>
+    </line>
+    <line>
+      <![CDATA[runFolderCount++: 6]]>
+    </line>
+    <line>
+      <![CDATA[Creating Test Cycle local-Googlesearch-03/30/21 17:56:33]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment variable Falcon is: Falcon]]>
+    </line>
+    <line>
+      <![CDATA[INFO: The value found with Environment Module variable googlesearch is: googlesearch]]>
+    </line>
+    <line>
+      <![CDATA[The value found with Environment variable MAC_catalina_chrome_89 is: MAC_catalina_chrome_89]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Clients Found: [Falcon]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: Modules Selected: [googlesearch]
+]]>
+    </line>
+    <line>
+      <![CDATA[INFO: New Suite Created with name: Falcon-Sample-MAC_catalina_chrome_89]]>
+    </line>
+    <line>
+      <![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Sample-MAC_catalina_chrome_89">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="89"/>
+  <test thread-count="5" name="SampleTest">
+    <classes>
+      <class name="falcon_framework_automation.com.qa.automation.testscript.SampleJiraTestScript"/>
+    </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- Falcon-Sample-MAC_catalina_chrome_89 -->
+]]>
+    </line>
+    <line>
+      <![CDATA[Jira test method]]>
+    </line>
+    <line>
+      <![CDATA[PASS : step 1 ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : step 2 ]]>
+    </line>
+    <line>
+      <![CDATA[PASS : step 3 ]]>
+    </line>
+    <line>
+      <![CDATA[result:sampleJiraTest]]>
+    </line>
+    <line>
+      <![CDATA[resultString:[TestResult name=sampleJiraTest status=SUCCESS method=SampleJiraTestScript.sampleJiraTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:falcon_framework_automation.com.qa.automation.testscript.SampleJiraTestScript@4761d276] output=Jira test method]]]>
+    </line>
+    <line>
+      <![CDATA[parameters: [Ljava.lang.Object;@6cf0bb32]]>
+    </line>
+    <line>
+      <![CDATA[parameters: 4]]>
+    </line>
+    <line>
+      <![CDATA[if_parameters[index]: MAC]]>
+    </line>
+    <line>
+      <![CDATA[else_parameters[index]: catalina]]>
+    </line>
+    <line>
+      <![CDATA[else_parameters[index]: chrome]]>
+    </line>
+    <line>
+      <![CDATA[else_parameters[index]: 89]]>
+    </line>
+    <line>
+      <![CDATA[Listener_BrowserCap: MAC_catalina_chrome_89googlesearch]]>
+    </line>
+    <line>
+      <![CDATA[testCycleMap:{MAC_catalina_chrome_89googlesearch=TP-R15}]]>
+    </line>
+    <line>
+      <![CDATA[Listener_testcycleKey: TP-R15]]>
+    </line>
+    <line>
+      <![CDATA[testCaseKeyout: TP-T1]]>
+    </line>
+    <line>
+      <![CDATA[testCaseKey: TP-T1]]>
+    </line>
+    <line>
+      <![CDATA[projectKey: TP]]>
+    </line>
+    <line>
+      <![CDATA[testCaseKey: TP-T1]]>
+    </line>
+    <line>
+      <![CDATA[testCycleKey: TP-R15]]>
+    </line>
+    <line>
+      <![CDATA[executionStatus: PASS]]>
+    </line>
+    <line>
+      <![CDATA[TestCaseResults: falcon-framework-automation.falcon.automation.jiracloud.tm.TestCaseResults@18cf4e13]]>
+    </line>
+  </reporter-output>
+  <suite name="Falcon-Sample-MAC_catalina_chrome_89" duration-ms="5015" started-at="2021-03-30T12:26:35Z" finished-at="2021-03-30T12:26:40Z">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="5015" started-at="2021-03-30T12:26:35Z" finished-at="2021-03-30T12:26:40Z">
+      <class name="falcon_framework_automation.com.qa.automation.testscript.SampleJiraTestScript">
+        <test-method status="PASS" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:falcon_framework_automation.com.qa.automation.testscript.SampleJiraTestScript@4761d276]" name="beforeTest" is-config="true" duration-ms="28" started-at="2021-03-30T12:26:35Z" finished-at="2021-03-30T12:26:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="sampleJiraTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:falcon_framework_automation.com.qa.automation.testscript.SampleJiraTestScript@4761d276]" name="sampleJiraTest" duration-ms="12" started-at="2021-03-30T12:26:36Z" finished-at="2021-03-30T12:26:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MAC]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[catalina]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[89]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Jira test method]]>
+            </line>
+            <line>
+              <![CDATA[PASS : step 1 ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : step 2 ]]>
+            </line>
+            <line>
+              <![CDATA[PASS : step 3 ]]>
+            </line>
+            <line>
+              <![CDATA[result:sampleJiraTest]]>
+            </line>
+            <line>
+              <![CDATA[resultString:[TestResult name=sampleJiraTest status=SUCCESS method=SampleJiraTestScript.sampleJiraTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:falcon_framework_automation.com.qa.automation.testscript.SampleJiraTestScript@4761d276] output=Jira test method]]]>
+            </line>
+            <line>
+              <![CDATA[parameters: [Ljava.lang.Object;@6cf0bb32]]>
+            </line>
+            <line>
+              <![CDATA[parameters: 4]]>
+            </line>
+            <line>
+              <![CDATA[if_parameters[index]: MAC]]>
+            </line>
+            <line>
+              <![CDATA[else_parameters[index]: catalina]]>
+            </line>
+            <line>
+              <![CDATA[else_parameters[index]: chrome]]>
+            </line>
+            <line>
+              <![CDATA[else_parameters[index]: 89]]>
+            </line>
+            <line>
+              <![CDATA[Listener_BrowserCap: MAC_catalina_chrome_89googlesearch]]>
+            </line>
+            <line>
+              <![CDATA[testCycleMap:{MAC_catalina_chrome_89googlesearch=TP-R15}]]>
+            </line>
+            <line>
+              <![CDATA[Listener_testcycleKey: TP-R15]]>
+            </line>
+            <line>
+              <![CDATA[testCaseKeyout: TP-T1]]>
+            </line>
+            <line>
+              <![CDATA[testCaseKey: TP-T1]]>
+            </line>
+            <line>
+              <![CDATA[projectKey: TP]]>
+            </line>
+            <line>
+              <![CDATA[testCaseKey: TP-T1]]>
+            </line>
+            <line>
+              <![CDATA[testCycleKey: TP-R15]]>
+            </line>
+            <line>
+              <![CDATA[executionStatus: PASS]]>
+            </line>
+            <line>
+              <![CDATA[TestCaseResults: falcon-framework-automation.falcon.automation.jiracloud.tm.TestCaseResults@18cf4e13]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sampleJiraTest -->
+      </class> <!-- falcon_framework_automation.com.qa.automation.testscript.SampleJiraTestScript -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- Falcon-Sample-MAC_catalina_chrome_89 -->
+</testng-results>

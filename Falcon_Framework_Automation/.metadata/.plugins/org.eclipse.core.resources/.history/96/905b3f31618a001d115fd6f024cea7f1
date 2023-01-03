@@ -1,0 +1,46 @@
+# Sample data provided here
+accept=application/json
+LOG_LEVEL=INFO
+SuiteFileName=testng.xml
+testreport.uploadurl = http://10.10.10.231:8083/testreport/upload
+onfailureimage.uploadurl=http://10.10.10.231:8084/image/upload
+
+#Environment Parameters
+instances=1
+ClientName=Falcon
+ProjectName=FalconWebDemo
+ModuleName=googlesearch
+#contactus,googlesearch
+BrowserCaps=MAC_catalina_chrome_89
+IncludeGroups=
+ExcludeGroups=
+#to enable or disable the locator smart fix feature
+locatorSmartFix=true
+environment=local
+# if environment=grid, use gridIP
+gridIP=
+
+# To Provide environment variable use following command
+# mvn -DClientName=Falcon -DModuleName=sample -DBrowserCaps=WIN_7_chrome_53 -Denvironment=local test
+
+#JIRA Parameters
+automatic.bug.creation=false
+
+uploadResults=false
+capture.screenshot=false
+
+#Jira Cloud Test Management Starts
+testEnvironment=<your project test environment here. For example: local>
+jira.root.folder=<jira test cycle folder name here. For example: WebApp>
+jira.testresults=false
+jira.url=https://api.adaptavist.io/tm4j/v2/
+jira.accesskey=<jira access key>
+jira.projectkey=<jira project key here. For example: TP>
+#Jira Cloud Test Management Ends
+
+dashboard.url=http://10.10.10.231:8082/#/app/dashboard
+
+# Slack Integration
+slack.enable=false
+slack.access.token=<slack access token here>
+slack.channel.name=<slack channel name here>

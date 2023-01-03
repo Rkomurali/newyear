@@ -1,0 +1,230 @@
+package com.qa.automation.testmethods;
+
+import com.qa.automation.falcon.testsuite.SampleTestSuiteBase;
+
+public class BrowserMethods extends SampleTestSuiteBase{
+	
+	
+	public boolean captureScreenshot()
+	{
+		//this method is used to get a capture screen of the website 
+		//but it returning false
+		//in doc its not clear 
+		
+		boolean status = browser.captureScreenshot();
+		System.out.println("Capture Screenshot :"+status);
+		return status;
+	}
+	
+	public boolean clearAllCookies()
+	{
+		boolean status = browser.clearAllCookies();
+		System.out.println("Clear All Cookies "+status);
+		return status;
+	}
+	
+	public boolean  clearCookieByName(String Cookies_Name)
+	{
+		boolean status = browser.clearCookieByName(Cookies_Name);
+		System.out.println("Clear Cookie ByName "+status);
+		return status;
+	}
+	
+	public boolean closeBrowser()
+	{
+		boolean status = browser.closeBrowser();
+		System.out.println("Close Browser "+status);
+		return status;
+	}
+	
+	public void getCheckBox()
+	{
+		
+		//this method is used to select the checkbox  by locators  
+		//But we are getting error on this 
+		//in this method we need to pass the four arguments.
+		//boolean is not accepting and its taking as string
+		// if we are passing the string instead for boolean but still we are getting error on this 
+		
+		boolean status = browser.getCheckBox().clickCheckBoxByValue(LocatorType.XPATH, "//input[@id='monday']", "true", SelectType.CHECK);
+		System.out.println("getCheckBox "+status);
+	}
+	
+	public void getClick()
+	{
+		boolean status =browser.getClick().performClick(LocatorType.XPATH, "//button[@name='submit']");
+		System.out.println("get Click "+status);
+		
+	}
+	
+	public String getCurrentPageTitle()
+	{
+		String title= browser.getCurrentPageTitle();
+		System.out.println("getCurrentPageTitle "+title);
+		return title;
+	}
+	
+	public String getCurrentURL()
+	{
+		String URL =browser.getCurrentURL();
+		System.out.println("getCurrentURL "+URL);
+		return URL;
+	}
+	
+	public WebDriver getDriver()
+	{
+		String title = browser.getDriver().getTitle();
+		String Url= browser.getDriver().getCurrentUrl();
+		System.out.println("getDriver of Title :"+title+" getDriver of URL :"+Url);
+		return driver;
+	}
+	
+	public Find getFindFromBrowser()
+	{
+		WebElement webElement = browser.getFindFromBrowser().findElementByXpath("//input[@id='male']");
+		webElement.click();
+		return null;
+		
+	}
+	
+	public Key getKey()
+	{
+		browser.getKey().pressKey(LocatorType.XPATH, "//select[@class='custom-select']", KeyType.ENTER);
+		return null;
+	}
+	
+	public String getLoadedPageSource()
+	{
+		String status = browser.getLoadedPageSource();
+		System.out.println("getLoadedPageSource "+status);
+		return status;
+	}
+	
+	public MouseMove getMouse()
+	{
+		/*WebElement TitleText = null;
+		((Browser) TitleText).getCurrentPageTitle();*/
+		//boolean status= browser.getMouse().clickAndHold(TitleText);
+
+		//This is working fine 
+		//But in the doc which they have used example is not clear and i can't able to understand 
+		//We need more clarification on this method
+		
+		WebElement chooseFile = browser.getDriver().findElement(By.xpath("//input[@id='inputGroupFile02']"));
+		
+		boolean status = browser.getMouse().mouseClick(chooseFile);
+		System.out.println("getMouse "+status);
+		return null;
+		
+	}
+	
+	public Navigate getNavigate()
+	{
+		browser.getPageScroll().down(4000);
+		boolean status = browser.getNavigate().refresh();
+		System.out.println("getNavigate :"+status);
+		return null;
+	}
+
+	public PageHelper getPageHelper()
+	{
+		//This method is available in the doc but example is not there
+		
+		List<String> name = browser.getPageHelper().getElementsAttributeList(By.tagName("a"), "href");
+		System.out.println("getPageHelper"+name);
+		return null;
+	}
+	
+	public Scroll getPageScroll() throws InterruptedException
+	{
+		
+		//for this method example is in wrong place
+		browser.getPageScroll().down(4000);
+		Thread.sleep(5000);
+		browser.getPageScroll().up(4000);
+		return null;
+		
+	}
+	
+	public WebTable getTable()
+	{
+		//for this method example is in wrong place
+		//This method is done in webtable class
+		
+		browser.getTable().columnCount(LocatorType.ID, "Table");
+		return null;
+	}
+	
+	public TextField  getTextField()
+	{
+		browser.getTextField().enterTextField(LocatorType.XPATH, "//input[@id='name']", "Edwin");
+		return null;
+	}
+	
+	public WaitElement getWait()
+	{
+		boolean status=  browser.getWait().waitFor(LocatorType.XPATH, "//input[@id='name']");
+		System.out.println("getWait "+status);
+		return null;
+	}
+	
+	public WindowHandler  getWindowHandler()
+	{
+		int num = browser.getWindowHandler().getWindowIndex();
+		System.out.println(num);
+		return null;
+	}
+	
+	public boolean openPageTwoParameters() throws InterruptedException
+	{
+		boolean Status = browser.openPage("https://www.google.com/", BrowserType.CHROME);
+		System.out.println("openPageTwoParameters"+Status);
+		Thread.sleep(4000);
+		browser.closeBrowser();
+		return Status;
+		
+	}
+	public boolean openPageThreeParameters() throws InterruptedException
+	{
+		
+		boolean Status = browser.openPage("https://www.hrberry.com/", BrowserType.FIREFOX,"Firefox");
+		System.out.println("openPageThreeParameters"+Status);
+		Thread.sleep(4000);
+		browser.closeBrowser();
+		return Status;
+		
+	}
+	
+	public void openPageCommons(String Onepage)
+	{
+		System.out.println("openPageCommons");
+		 browser.openPageCommons(Onepage);
+	}
+	
+	
+	public void openPageSixParameters(String os, String osVersion, String br, String browserVersion, DesiredCapabilities cap)
+	{
+		browser.openURL("https://itera-qa.azurewebsites.net/home/automation", os, osVersion, br, browserVersion, cap);
+	}
+	
+	public boolean quitBrowser()
+	{
+		return browser.quitBrowser();
+	}
+	
+	public boolean refreshBrowser()
+	{
+		 
+			boolean status=	browser.refreshBrowser();
+			System.out.println(status);
+		
+		return status;
+	}
+	
+	public void validateURL()
+	{
+		//in browser last 4 methods are present in doc but not able to use in Code.
+	}
+	
+
+}

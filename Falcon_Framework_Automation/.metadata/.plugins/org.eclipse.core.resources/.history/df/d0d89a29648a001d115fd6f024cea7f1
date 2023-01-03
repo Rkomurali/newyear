@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Sample Suite File -->
+
+<suite name="Sample">
+
+	<test name="FalconTest">
+		<classes>
+			<class name="com.qa.automation.falcon.testscript.BrowserTest" />
+			<class name="com.qa.automation.falcon.testscript.Test" />
+		</classes>
+	</test>
+
+</suite>
+
